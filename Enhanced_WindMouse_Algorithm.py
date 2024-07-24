@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import random
 import time
@@ -77,8 +71,6 @@ dest_x, dest_y = 100, 100
 enhanced_wind_mouse(start_x, start_y, dest_x, dest_y, obstacles=obstacles, move_mouse=move_mouse)
 
 
-# In[2]:
-
 
 import matplotlib.pyplot as plt
 
@@ -91,17 +83,4 @@ for y in np.linspace(-200,200,25):
     plt.plot(*points.T)
 plt.xlim(-50,550)
 plt.ylim(-250,250)
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
